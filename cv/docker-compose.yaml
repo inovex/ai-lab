@@ -1,0 +1,26 @@
+version: '3'
+
+services:
+  jupyter:
+    image: hskaailab/cv:latest
+    volumes:
+      - ./notebooks:/notebooks
+    ports:
+      - "8888:8888"
+    networks:
+      - ailab
+
+  pg_modelregistry:
+    image: postgres
+    environment: 
+      - POSTGRES_USER=mlflow
+      - POSTGRES_DB=mlflow
+      - POSTGRES_PASSWORD=mlflow
+    ports:
+      - "5432:5432"
+    networks:
+      - ailab 
+
+networks:
+  ailab:
+    driver: bridge
