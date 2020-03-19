@@ -18,6 +18,6 @@ Follow these steps to get your colab environment up and running.
 
 ## Useful tips
 
-1. Currently, colab cant open Notebooks from your Drive. To open the exercises, you have to open your Drive in a seperate browser window and open the notebook with colab. 
+1. Currently, colab can't open Notebooks from your mounted Drive folder. **To open the exercise, you have to open your Drive in a seperate browser window to the notebooks**. Just right click on the notebook and click on *open with Google Collaboratory*. You may have to install the colab extension to your Google account.
 2. Check your runtime! If you work on less compute intensive tasks, make sure to switch to an non-accelerated runtime. Colab is free, but they have some resource limitations. GPUs and TPUs are sometimes prioritized for users who use Colab interactively rather than for long-running computations, or for users who have recently used less resources in Colab.
 3. For other useful tips, we recommend watching this video of the 2020 TensorFlow DevSummit, which is also included in the slides of the kick-off event: https://youtu.be/pnClcwTCyc0
