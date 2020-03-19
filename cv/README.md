@@ -1,19 +1,12 @@
-# Hochschule Karlsruhe: AI Labor
-# Modul: Computer Vision
+# Hochschule Karlsruhe: AI-Lab
+# Module: Computer Vision
 
-Repository für das Computer Vision Modul des AI-Labors an der Hochschule Karlsruhe.
+This folder contains the exercisec of the Coputer Vision module. The exercises are structured as follows.
 
-## Konfiguration
-- Python Version: 3.6
-- TensorFlow Version: 1.12.0
+## Exercise 1: Fashion-MNIST and CIFAR10
 
-## Docker Umgebung
-- Installiere [Docker](https://docs.docker.com/install/)
-- Umgebung starten
+This exercise is meant to provide you an introduction to Computer Vision using deep learning techniques. Please follow the instructions in the two notebooks starting with `01_*` prefix.
 
-    ```sh
-    git clone ssh://git@gitlab.inovex.de:2424/alle-inovex-mitarbeiter/hska-ai-lab-cv.git
-    cd hska-ai-lab-cv
-    docker-compose up --build
-    ```
-- Jupyter Notebook erreichbar unter [http://localhost:8888](http://localhost:8888)
+## Exercise 2: Transfer Learning and PointNet
+
+This Exercise gives you insight into the concrete application scenario of deep learning for 3D point cloud classification. It will teach you how to use transfer learning with PointNet. Please follow the instructions in the notebook `02_1_ModelNet10_PointNet_Classifier.ipynb`.
