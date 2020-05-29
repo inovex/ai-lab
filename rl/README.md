@@ -31,11 +31,10 @@ Im Browser `http://localhost:6006` aufrufen.
 | Datum | Inhalt |
 |-|-|
 | 29.05.2020 | Vorstellung Aufgabenteil 1: CliffWalking und CartPole mit Q-Learning |
-| 05.06.2020 | Ferien (Pfingstwoche) |
-| 12.06.2020 | Remotebetreuung |
-| 19.06.2020 | Abgabe Aufgabenteil 1 und Vorstellung Aufgabenteil 2: CartPole und Atari Gym mit DQN (pixel-basierter State-Space) |
-| 26.06.2020 | Remotebetreuung |
-| 03.07.2020 | Abgabe Aufgabenteil 2 |
+| 05.06.2020 | Remotebetreuung |
+| 12.06.2020 | Abgabe Aufgabenteil 1 und Vorstellung Aufgabenteil 2: CartPole und Atari Gym mit DQN (pixel-basierter State-Space) |
+| 19.06.2020 | Remotebetreuung |
+| 26.06.2020 | Abgabe Aufgabenteil 2 |
 
 ## Hinweise
 
