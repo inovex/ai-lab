@@ -1,0 +1,31 @@
+version: '2.3'
+
+services:
+  ai-lab-rl:
+    build:
+      context: .
+    runtime: nvidia
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+    volumes:
+      - .:/rl
+    ports:
+      - "8889:8888"
+    depends_on:
+      - tensorboard
+  ai-lab-rl-cpu:
+    build:
+      context: .
+    volumes:
+      - .:/rl
+    ports:
+      - "8889:8888"
+    depends_on:
+      - tensorboard
+  tensorboard:
+    image: tensorflow/tensorflow:2.0.1-gpu
+    ports:
+      - "6006:6006"
+    volumes:
+      - .:/rl
+    command: "tensorboard --logdir ."
