@@ -1,29 +1,38 @@
 version: '2.3'
 
 services:
-  ai-lab-rl:
+  ai-lab-rl-cpu:
     build:
       context: .
+      dockerfile: ./cpu.Dockerfile
+    volumes:
+      - .:/rl
+    ports:
+      - "8888:8888"
+    depends_on:
+      - tensorboard-cpu
+  ai-lab-rl-gpu:
+    build:
+      context: .
+      dockerfile: ./gpu.Dockerfile
     runtime: nvidia
     environment:
       - NVIDIA_VISIBLE_DEVICES=all
     volumes:
       - .:/rl
     ports:
-      - "8889:8888"
+      - "8888:8888"
     depends_on:
-      - tensorboard
-  ai-lab-rl-cpu:
-    build:
-      context: .
+      - tensorboard-gpu
+  tensorboard-cpu:
+    image: tensorflow/tensorflow:1.13.1-py3
+    ports:
+      - "6006:6006"
     volumes:
       - .:/rl
-    ports:
-      - "8889:8888"
-    depends_on:
-      - tensorboard
-  tensorboard:
-    image: tensorflow/tensorflow:2.0.1-gpu
+    command: "tensorboard --logdir ."
+  tensorboard-gpu:
+    image: tensorflow/tensorflow:1.13.1-gpu-py3
     ports:
       - "6006:6006"
     volumes:

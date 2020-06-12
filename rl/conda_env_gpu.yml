@@ -1,0 +1,12 @@
+name: ai-lab-hska-rl
+dependencies:
+  - python=3.6.9
+  - matplotlib
+  - tornado
+  - jupyterlab
+  - tensorflow-gpu=1.13.1
+  - pydotplus
+  - scikit-learn
+  - pip
+  - pip:
+      - --requirement requirements.txt

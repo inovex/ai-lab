@@ -4,6 +4,7 @@ dependencies:
   - matplotlib
   - tornado
   - jupyterlab
+  - tensorflow=1.13.1
   - pydotplus
   - scikit-learn
   - pip

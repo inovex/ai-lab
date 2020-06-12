@@ -42,7 +42,7 @@ def visualize_samples(samples, discretized_samples, grid, low=None, high=None, x
     ax.add_collection(mc.LineCollection(list(zip(samples, locs)), colors='orange'))
     ax.legend(['original', 'discretized'])
 
-def plot_statistics(statistics, y_limits=None):
+def plot_statistics(statistics, y_limits=None, open_window=False):
     x = [statistic['episode'] for statistic in statistics]
     y = [statistic['score'] for statistic in statistics]
 
@@ -57,5 +57,5 @@ def plot_statistics(statistics, y_limits=None):
 
     ax.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.)
 
-    plt.show(block=False)
+    plt.show(block=open_window)
     plt.close('all')
