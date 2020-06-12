@@ -1,4 +1,4 @@
-FROM tensorflow/tensorflow:2.0.1-gpu
+FROM tensorflow/tensorflow:1.13.1-gpu-py3
 
 ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
 ENV PATH /opt/conda/bin:$PATH
@@ -34,7 +34,7 @@ ENV BASH_ENV ~/.bashrc
 SHELL ["/bin/bash", "-c"]
 
 COPY requirements.txt /tmp/requirements.txt
-COPY conda_env.yml /tmp/conda_env.yml
+COPY conda_env_gpu.yml /tmp/conda_env.yml
 
 # Create conda environment
 RUN conda env create -f /tmp/conda_env.yml

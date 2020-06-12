@@ -7,19 +7,27 @@ Praktische Herangehensweise an die Lösung unterschiedlich komplexer Kontroll-Pr
 Jupyter Notebook inkl. TensorBoard starten:
 
 ```bash
-docker-compose up ai-lab-rl      # Uses NVIDIA GPU
+docker-compose up ai-lab-rl-gpu  # Uses NVIDIA GPU
 docker-compose up ai-lab-rl-cpu  # For CPU usage
 ```
 
 ### Ohne docker-compose
 
+Docker Image bauen:
+
 ```bash
-docker run -it --rm -v $PWD:/rl -p 8889:8888 --gpus all ai-lab-hska-rl_ai-lab-rl
+docker build -f gpu.Dockerfile -t ai-lab-rl .
+```
+
+Docker starten:
+
+```bash
+docker run -it --rm -v $PWD:/rl -p 8888:8888 --gpus all ai-lab-rl
 ```
 
 ### Jupyter Lab
 
-Im Browser `http://localhost:8889` aufrufen.
+Im Browser `http://localhost:8888` aufrufen.
 **Speichern klappt nur bei Tusted Notebooks!**
 
 ### TensorBoard
@@ -31,10 +39,11 @@ Im Browser `http://localhost:6006` aufrufen.
 | Datum | Inhalt |
 |-|-|
 | 29.05.2020 | Vorstellung Aufgabenteil 1: CliffWalking und CartPole mit Q-Learning |
-| 05.06.2020 | Remotebetreuung |
-| 12.06.2020 | Abgabe Aufgabenteil 1 und Vorstellung Aufgabenteil 2: CartPole und Atari Gym mit DQN (pixel-basierter State-Space) |
-| 19.06.2020 | Remotebetreuung |
-| 26.06.2020 | Abgabe Aufgabenteil 2 |
+| 05.06.2020 | Ferien (Pfingstwoche) |
+| 12.06.2020 | Remotebetreuung |
+| 19.06.2020 | Abgabe Aufgabenteil 1 und Vorstellung Aufgabenteil 2: CartPole und Atari Gym mit DQN (pixel-basierter State-Space) |
+| 26.06.2020 | Remotebetreuung |
+| 03.07.2020 | Abgabe Aufgabenteil 2 |
 
 ## Hinweise
 
