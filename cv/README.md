@@ -3,10 +3,15 @@
 
 This folder contains the exercisec of the Coputer Vision module. The exercises are structured as follows.
 
-## Exercise 1: Fashion-MNIST and CIFAR10
+## Exercise 1: MNIST with MLP
 
-This exercise is meant to provide you an introduction to Computer Vision using deep learning techniques. Please follow the instructions in the two notebooks starting with `01_*` prefix.
+This exercise is meant to provide you an introduction to using tensorflow. Please follow the instructions in the notebook `cv_1_mnist_mlp.ipynb`.
 
-## Exercise 2: Transfer Learning and PointNet
+## Exercise 2: MNIST with CNN
 
-This Exercise gives you insight into the concrete application scenario of deep learning for 3D point cloud classification. It will teach you how to use transfer learning with PointNet. Please follow the instructions in the notebook `02_1_ModelNet10_PointNet_Classifier.ipynb`.
+This exercise is meant to provide you an introduction to using convolutional layers tensorflow. Please follow the instructions in the notebook `cv_2_mnist_cnn.ipynb`.
+
+## Exercise 3: CIFAR10 and overfitting
+
+This exercise gives you insight into the concrete methods for preventing overfitting in deep learning for image classification. It will teach you how to use early stopping, dropout, batch normalization and data augmentation with CIFAR10. Please follow the instructions in the notebook `cv_3_cifar10.ipynb`.
+
