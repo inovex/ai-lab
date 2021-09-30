@@ -1,3 +1,0 @@
-gym[atari,classic_control,box2d]
-opencv-python
-pyvirtualdisplay
