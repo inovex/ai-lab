@@ -2,61 +2,9 @@
 
 Praktische Herangehensweise an die Lösung unterschiedlich komplexer Kontroll-Probleme mit Hilfe von modernen Reinforcement Learning (RL) Algorithmen. Von tabellarischen Methoden wie Q-Learning bis hin zur Funktionsapproximation durch Neuronale Netze soll versucht werden, Agenten in verschiedenen OpenAI Gym Umgebungen zu trainieren. Das Hauptziel am Ende ist es ein Atari Game mit Deep RL zu bewältigen.
 
-## Vorbereitung
+## Notebooks
 
-Jupyter Notebook inkl. TensorBoard starten:
-
-```bash
-docker-compose up ai-lab-rl-gpu  # Uses NVIDIA GPU
-docker-compose up ai-lab-rl-cpu  # For CPU usage
-```
-
-### Ohne docker-compose
-
-Docker Image bauen:
-
-```bash
-docker build -f gpu.Dockerfile -t ai-lab-rl .
-```
-
-Docker starten:
-
-```bash
-docker run -it --rm -v $PWD:/rl -p 8888:8888 --gpus all ai-lab-rl
-```
-
-### Jupyter Lab
-
-Im Browser `http://localhost:8888` aufrufen.
-**Speichern klappt nur bei Tusted Notebooks!**
-
-### TensorBoard
-
-Im Browser `http://localhost:6006` aufrufen.
-
-## Termine
-
-| Datum | Inhalt |
-|-|-|
-| 29.05.2020 | Vorstellung Aufgabenteil 1: CliffWalking und CartPole mit Q-Learning |
-| 05.06.2020 | Remotebetreuung |
-| 12.06.2020 | Abgabe Aufgabenteil 1 und Vorstellung Aufgabenteil 2: CartPole und Atari Gym mit DQN (pixel-basierter State-Space) |
-| 19.06.2020 | Remotebetreuung |
-| 26.06.2020 | Abgabe Aufgabenteil 2 |
-
-## Hinweise
-
-### Alle Ausgabezellen löschen
-
-```bash
-jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace Notebook.ipynb
-```
-
-### Package als root temporär in vorhandenem Container installieren
-
-```bash
-docker exec -u 0 -it <container_id> /bin/bash
-```
+Alle Notebooks sind für die Verwendung in Google Colab vorbereitet. Die Notebooks 1-3 können auch ohne GPU Runtime in Colab verwendet werden, ohne Performance einzubüßen. Für die Notebooks 4 und 5 wird empfohlen, die GPU Unterstützung zu aktivieren. Bei geeigneter eigener Hardware, sollte es ohne große Probleme möglich sein, die Notebooks auch außerhalb von Colab auszuführen.
 
 ## Weiterführende Lektüre
 
