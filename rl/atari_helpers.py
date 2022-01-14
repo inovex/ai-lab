@@ -250,13 +250,13 @@ class MaxAndSkipEnv(gym.Wrapper):
         return self.env.reset(**kwargs)
 
 
-def make_atari(env_id):
+def make_atari(env_id, skip: int=4):
     env = gym.make(env_id)
     assert 'NoFrameskip' in env.spec.id
     env = NoopResetEnv(env, noop_max=30)
     print("NoopResetEnv (max 30) wrapper is used.")
-    env = MaxAndSkipEnv(env, skip=4)
-    print("MaxAndSkipEnv wrapper is used.")
+    env = MaxAndSkipEnv(env, skip=skip)
+    print(f"MaxAndSkipEnv (skip {skip}) wrapper is used.")
     return env
 
 
