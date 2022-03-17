@@ -1,5 +1,7 @@
-# Hochschule Karlsruhe: AI-Lab
+# AI-Lab - Hochschule Karlsruhe
 ## Module: NLP
+
+<!-- 
 
 This folder contains the exercises of the NLP module. The exercises are structured as follows.
 
@@ -8,3 +10,5 @@ This excerise gives an introduction in how computers learn representations of te
 
 ### Exercise 2: Text Classification (Sentiment Analysis)
 This excerise contains a sentiment analysis on Twitter data using a dense neural net and bow word representations.
+
+-->
