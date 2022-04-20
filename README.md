@@ -16,7 +16,7 @@ Sources and Docker Environment for the AI Lab at HSKA: https://www.iwi.hs-karlsr
 | 06.05.22 | NLP                    | Sprintwechsel, Vorstellung Assignment     | Ja      |
 | 13.05.22 | NLP                    | Q&A Sessions                              | Nein    |
 | 20.05.22 | NLP / RL               | Abgabe NLP, Vorstellung RL                | Ja      |
-| 27.05.22 | RL                     | Sprintwechsel, Vorstellung Assignment     | Ja      |
+| 27.05.22 | RL                     | Sprintwechsel, Vorstellung Assignment     | Nein    |
 | 03.06.22 | RL | *Ausfall (Sommerplenum)* | -
 | 10.06.22 | RL   |  *Ausfall (Pfingsten / H-KA zu)* | -
 | 17.06.22 | RL                     | Q&A Sessions (Brückentag)                 | Nein    |
