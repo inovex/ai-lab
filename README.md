@@ -6,11 +6,15 @@ Sources and Docker Environment for the AI Lab at HSKA: https://www.iwi.hs-karlsr
 | Datum       | Thema                   | Inhalt                                    | Präsenz   |
 | ----------- | ----------------------- | ----------------------------------------- | --------- |
 | 3\. Mai.    | Allg.                   | Transformers + Projektintros              | Nein       |
-| 10\. Mai.    | Allg.                   | Transformers + Projektintros              | Nein       |
-| 17\. Mai.    | Allg.                   | Transformers + Projektintros              | Nein        |
+| 10\. Mai.    | Allg.                   |   Projektverteilung           | Nein       |
+| 17\. Mai.    | Allg.                   |              | Nein        |
 |             | Allg.                   | Feiertag                                  | Nein        |
-| 31\. Mai.    | Allg.                   | Transformers + Projektintros              | Nein       |
-| 7\. Juni.    | Allg.                   | Transformers + Projektintros              | Nein        |
+| 31\. Mai.    | Allg.                   |             | Nein       |
+| 14\. Juni.    | Allg.                   |             | Nein        |
+| 21\. Juni.    | Allg.                   |               | Nein        |
+| 28\. Juni.    | Allg.                   |             | Nein        |
+| 5\. Juli.    | Allg.                   |  Final Presentation             | yes        |
+
 
 
 
