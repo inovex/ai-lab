@@ -76,8 +76,9 @@ https://www.kaggle.com/competitions/beyond-visible-spectrum-ai-for-agriculture-2
 | Die Neuronale Crew    | AI for Agriculture  | 10:00 - 10:15|
 | DataDroids    | Prediction of sentence relations | 10:15 - 10:30 |
 | Team Question Mark | Own Project: Content-based recommendation system for scientific papers on Arxiv | 10:30 - 10:45 |
-| ETE | Google Isolated Sign Language Recognition | 10:45 - 11:00 |
+| MindCraft | Visual-WSD | 10:45 - 11:00 |
 | The Unsupervised Learners | Traveling Salesmen Computer Vision | 11:00 - 11:15 |
-| MindCraft | Defi IA | 11:15 - 11:30 |
+| ETE | Google Isolated Sign Language Recognition | 11:15 - 11:30 |
+
 
 
