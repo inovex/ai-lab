@@ -32,7 +32,7 @@ https://sites.google.com/view/numeval/data
 https://competitions.codalab.org/competitions/33835
 
 
-##### Given a word and some limited textual context, the task is to select among a set of candidate images the one which corresponds to the intended meaning of the target word. (+ Computer Vision)
+##### Visual Word Sense Disambiguation (Visual-WSD)
 https://raganato.github.io/vwsd/
 
 
