@@ -12,8 +12,7 @@ Sources and Docker Environment for the AI Lab at HSKA: https://www.iwi.hs-karlsr
 | 31\. Mai.    | Allg.                   |             | No       |
 | 14\. Juni.    | Allg.                   |             | No        |
 | 21\. Juni.    | Allg.                   |               | No        |
-| 28\. Juni.    | Allg.                   |             | No        |
-| 5\. Juli.    | Allg.                   |  Final Presentation             | yes        |
+| 28\. Juni.    | Allg.                   | Final Presentation            | Yes        |
 
 
 
