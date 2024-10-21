@@ -31,9 +31,6 @@ https://sites.google.com/view/numeval/data
 https://competitions.codalab.org/competitions/33835
 
 
-##### Visual Word Sense Disambiguation (Visual-WSD)
-https://raganato.github.io/vwsd/
-
 
 #### Clickbait spoiling
 https://pan.webis.de/semeval23/pan23-web/clickbait-challenge.html
@@ -55,29 +52,31 @@ https://www.kaggle.com/competitions/contradictory-my-dear-watson
 https://www.kaggle.com/c/nbme-score-clinical-patient-notes/overview/code-requirements
 
 ### Computer Vision
-#### Google Isolated Sign Language Challenge: 
-https://www.kaggle.com/competitions/asl-signs
 
 #### Image Matching Challenge:
 https://www.kaggle.com/competitions/image-matching-challenge-2024/overview
 
-#### Traveling Salesmen Computer Vision: 
-https://www.kaggle.com/competitions/tsp-cv/overview
 
-#### AI for Agriculture:
-https://www.kaggle.com/competitions/beyond-visible-spectrum-ai-for-agriculture-2024/overview
+
 
 
 ## Project and Time Slot Assignments
 
 | Team       | Project                   | Time Slot |
 | ----------- | ----------------------- | ---------- |
-| Die Neuronale Crew    | AI for Agriculture  | 10:00 - 10:15|
-| DataDroids    | Prediction of sentence relations | 10:15 - 10:30 |
-| Team Question Mark | Own Project: Content-based recommendation system for scientific papers on Arxiv | 10:30 - 10:45 |
-| MindCraft | Visual-WSD | 10:45 - 11:00 |
-| The Unsupervised Learners | Traveling Salesmen Computer Vision | 11:00 - 11:15 |
-| ETE | Google Isolated Sign Language Recognition | 11:15 - 11:30 |
 
 
+--------
+## Last years projects
+#### AI for Agriculture:
+https://www.kaggle.com/competitions/beyond-visible-spectrum-ai-for-agriculture-2024/overview
 
+#### Google Isolated Sign Language Challenge: 
+https://www.kaggle.com/competitions/asl-signs
+
+##### Visual Word Sense Disambiguation (Visual-WSD)
+https://raganato.github.io/vwsd/
+
+
+#### Traveling Salesmen Computer Vision: 
+https://www.kaggle.com/competitions/tsp-cv/overview
