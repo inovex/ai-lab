@@ -5,14 +5,15 @@ Sources and Docker Environment for the AI Lab at HSKA: https://www.iwi.hs-karlsr
 ## Timeline for SS24
 | Datum       | Thema                   | Inhalt                                    | Präsenz   |
 | ----------- | ----------------------- | ----------------------------------------- | --------- |
-| 3\. Mai.    | Allg.                   | Transformers + Projektintros              | No       |
-| 10\. Mai.    | Allg.                   |   Projektassignments      | No       |
-| 17\. Mai.    | Allg.                   |              | No        |
+| 15\. November.    | Allg.                   | Transformers + Projektintros              | No       |
+| 22\. November.    | Allg.                   |   Projektassignments      | No       |
+| 29\. November.    | Allg.                   |              | No        |
+| 6\. Dezember.    | Allg.                   |             | No       |
+| 13\. Dezember.    | Allg.                   |             | No        |
+| 20\. Dezember.    | Allg.                   |               | No        |
 |             | Allg.                   | Public Holidays                                  | No        |
-| 31\. Mai.    | Allg.                   |             | No       |
-| 14\. Juni.    | Allg.                   |             | No        |
-| 21\. Juni.    | Allg.                   |               | No        |
-| 28\. Juni.    | Allg.                   | Final Presentation            | Yes        |
+| 10\. Januar.    | Allg.                   |               | No        |
+| 17\. Januar.    | Allg.                   | Final Presentation            | Yes        |
 
 
 
