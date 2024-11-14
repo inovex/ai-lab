@@ -32,7 +32,6 @@ https://sites.google.com/view/numeval/data
 https://competitions.codalab.org/competitions/33835
 
 
-
 #### Clickbait spoiling
 https://pan.webis.de/semeval23/pan23-web/clickbait-challenge.html
 
@@ -52,13 +51,35 @@ https://www.kaggle.com/competitions/contradictory-my-dear-watson
 #### Scoring clinical patient notes
 https://www.kaggle.com/c/nbme-score-clinical-patient-notes/overview/code-requirements
 
+
 ### Computer Vision
 
-#### Image Matching Challenge:
+#### Image Matching Challenge [structure from motion]
 https://www.kaggle.com/competitions/image-matching-challenge-2024/overview
 
+#### Computer Vision - XM (detect healthy vs diseased leaves) [binary classification]
+https://www.kaggle.com/competitions/computer-vision-xm/overview
 
+#### Automatic Identification of Internal Waves [binary classification]
+https://www.kaggle.com/competitions/internal-waves/overview
 
+#### RSNA 2024 Lumbar Spine Degenerative Classification [detection, multiclass classification, incomplete labels]
+https://www.kaggle.com/competitions/rsna-2024-lumbar-spine-degenerative-classification/overview
+
+#### Mushroom multiclass classification [multiclass classification]
+https://www.kaggle.com/competitions/mushroom-multiclass-classification/overview
+
+#### SofaVision [segmentation]
+https://www.kaggle.com/competitions/sofavision/overview
+
+#### Super Resolution in Video Games [upscaling resolution]
+https://www.kaggle.com/competitions/super-resolution-in-video-games/overview
+
+#### ML Olympiad- Water Mapping using Satellite Imagery [segmentation]
+https://www.kaggle.com/competitions/mlnomads-mlolympiad24/overview
+
+#### SARFish Challenge - Maritime Object Detection [detection, classification, regression]
+https://www.kaggle.com/competitions/sarfish-maritime-object-detection/overview
 
 
 ## Project and Time Slot Assignments
