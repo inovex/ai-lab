@@ -16,9 +16,6 @@ Sources and Docker Environment for the AI Lab at HSKA: https://www.iwi.hs-karlsr
 | 17\. Januar.    | Allg.                   | Final Presentation            | Yes        |
 
 
-
-
-
 ## Projektideen
 
 ### NLP
@@ -27,14 +24,11 @@ Numeval - quantitative understanding of English
 https://sites.google.com/view/numeval/numeval
 https://sites.google.com/view/numeval/data
 
-
 #### Multilingual News Article Similarity: do news cover the same story?
 https://competitions.codalab.org/competitions/33835
 
-
 #### Clickbait spoiling
 https://pan.webis.de/semeval23/pan23-web/clickbait-challenge.html
-
 
 #### Defi IA, predict job category based on job description
 https://github.com/yogeshkumarpilli/Kaggle-NLP-Challenge
@@ -43,13 +37,31 @@ https://www.kaggle.com/c/defi-ia-insa-toulouse/overview
 #### Predict argument efficacy
 https://www.kaggle.com/competitions/feedback-prize-effectiveness
 
-
 #### Kaggle prediction of sentence relations (contra, related, none)
 https://www.kaggle.com/competitions/contradictory-my-dear-watson
 
-
 #### Scoring clinical patient notes
 https://www.kaggle.com/c/nbme-score-clinical-patient-notes/overview/code-requirements
+
+#### Natural Language Processing with Disaster Tweets [binary]
+"build a machine learning model that predicts which Tweets are about real disasters and which one’s aren’t."
+https://www.kaggle.com/c/nlp-getting-started/overview
+
+#### Predict Closed Questions on Stack Overflow [binary]
+"build a classifier that predicts whether or not a question will be closed given the question as submitted, along with the reason that the question was closed"
+https://www.kaggle.com/c/predict-closed-questions-on-stack-overflow/
+
+#### Quora Question Pairs [binary]
+"predict which of the provided pairs of questions contain two questions with the same meaning"
+https://www.kaggle.com/c/quora-question-pairs/data
+
+#### Tweet Sentiment Extraction [sequence extraction]
+https://www.kaggle.com/c/tweet-sentiment-extraction/overview
+"which words actually lead to the sentiment description? In this competition you will need to pick out the part of the tweet (word or phrase) that reflects the sentiment."
+
+#### Movie Review Sentiment Analysis (Kernels Only) [multi-label classification]
+https://www.kaggle.com/competitions/movie-review-sentiment-analysis-kernels-only/overview
+"This competition presents a chance to benchmark your sentiment-analysis ideas on the Rotten Tomatoes dataset. You are asked to label phrases on a scale of five values: negative, somewhat negative, neutral, somewhat positive, positive."
 
 
 ### Computer Vision
