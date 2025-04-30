@@ -23,18 +23,9 @@ Sources and Docker Environment for the AI Lab at HSKA: https://www.iwi.hs-karlsr
 #### Multilingual News Article Similarity: do news cover the same story?
 https://competitions.codalab.org/competitions/33835
 
-#### Clickbait spoiling
-https://pan.webis.de/semeval23/pan23-web/clickbait-challenge.html
-
 #### Defi IA, predict job category based on job description
 https://github.com/yogeshkumarpilli/Kaggle-NLP-Challenge
 https://www.kaggle.com/c/defi-ia-insa-toulouse/overview
-
-#### Predict argument efficacy
-https://www.kaggle.com/competitions/feedback-prize-effectiveness
-
-#### Kaggle prediction of sentence relations (contra, related, none)
-https://www.kaggle.com/competitions/contradictory-my-dear-watson
 
 #### Scoring clinical patient notes
 https://www.kaggle.com/c/nbme-score-clinical-patient-notes/overview/code-requirements
